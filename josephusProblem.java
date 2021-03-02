@@ -12,8 +12,12 @@ Explanation: There are 3 persons so
 skipping 1 person i.e 1st person 2nd 
 person will be killed. Thus the safe 
 position is 3.
+
+
+time complexity O(n)
 */
 
+//first solution 
 class Solution
 {
    public int josephus(int n, int k)
@@ -30,7 +34,7 @@ class Solution
 
 
 
-// second solutiomn
+// second solutiomn using list
 
 // Java program for Josephus problem
 import java.util.*;
