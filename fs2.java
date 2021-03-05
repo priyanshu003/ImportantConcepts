@@ -50,6 +50,14 @@ public class Main {
 			return str;
 		}
 	}
+	
+		 // used for swapping ith and jth elements of array
+	  public static void swap(int[] arr, int i, int j) {
+	    System.out.println("Swapping " + arr[i] + " and " + arr[j]);
+	    int temp = arr[i];
+	    arr[i] = arr[j];
+	    arr[j] = temp;
+	  }
 
 	public static void main(String[] args)
 	{
