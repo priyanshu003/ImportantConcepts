@@ -61,6 +61,6 @@ public class Main {
 
 
                         
-//it is based on quickSort
+//it is based on CountSort algo
 
                         
