@@ -61,15 +61,10 @@ public class Main {
 
 	public static void main(String[] args)
 	{
-		FastReader s = new FastReader();
-		int n = s.nextInt();
-		int k = s.nextInt();
-		int count = 0;
-		while (n-- > 0) {
-			int x = s.nextInt();
-			if (x % k == 0)
-				count++;
+		FastReader sc = new FastReader();
+		int t = sc.nextInt();
+		while(t-->0){
+		int n = sc.nextInt();
 		}
-		System.out.println(count);
 	}
 }
